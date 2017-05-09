@@ -1,0 +1,17 @@
+group 'com.vbelova'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.slf4j', name: 'slf4j-log4j12', version: '1.7.25'
+    compile group: 'org.springframework', name: 'spring-context', version: '4.3.8.RELEASE'
+    compile group: 'org.springframework', name: 'spring-aop', version: '4.3.8.RELEASE'
+    compile group: 'org.springframework', name: 'spring-aspects', version: '4.3.8.RELEASE'
+}
